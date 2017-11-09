@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:mets="http://www.loc.gov/METS/"
+      recordType="physical">
+   <control>
+      <recordId>1989.19.11</recordId>
+      <maintenanceStatus>revised</maintenanceStatus>
+      <publicationStatus>approved</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>University of Virginia Library</agencyName>
+         <agencyCode>US-viu</agencyCode>
+      </maintenanceAgency>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2012-12-12T15:05:54.552-05:00Z">2012-12-12T15:05:54.552-05:00Z</eventDateTime>
+            <agentType>human</agentType>
+            <agent>Ethan Gruber and/or Carrie Sulosky</agent>
+            <eventDescription>Migrated from EAD to NUDS</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2013-09-11T12:20:50.632-04:00Z">2013-09-11T12:20:50.632-04:00Z</eventDateTime>
+            <agentType>human</agentType>
+            <agent>XSLT</agent>
+            <eventDescription>Migrated to new NUDS schema version; nudsHeader to control.</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent xmlns:nuds="http://nomisma.org/nuds">
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2017-11-09T09:31:03.914-05:00">2017-11-09T09:31:03.914-05:00</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>XSLT</agent>
+            <eventDescription>Extracted typological data from coin type URI; moved URI to
+                        nuds:reference[@arcrole='nmo:hasTypeSeriesItem']</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <license xlink:type="simple"
+                  xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <otherRecordId semantic="dcterms:replaces">http://coins.lib.virginia.edu/display-uva?id=n1989_19_11</otherRecordId>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <title xml:lang="en">Dupondius of Antoninus Pius, Rome,  A.D. 140-144. 1989.19.11.</title>
+   <typeDesc>
+      <dateRange>
+         <fromDate standardDate="0140">AD 140</fromDate>
+         <toDate standardDate="0144">AD 144</toDate>
+      </dateRange>
+      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/dupondius">Dupondius</denomination>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+      <authority>
+         <persname xlink:type="simple"
+                   xlink:role="authority"
+                   xlink:href="http://nomisma.org/id/antoninus_pius">Antoninus Pius</persname>
+      </authority>
+      <geographic>
+         <geogname xlink:type="simple"
+                   xlink:role="mint"
+                   xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+         <geogname xlink:type="simple"
+                   xlink:role="region"
+                   xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+      </geographic>
+      <obverse>
+         <legend scriptCode="Latn">ANTONINVS AVG PIVS P P TR P COS III</legend>
+         <type>
+            <description xml:lang="en">Head of Antoninus Pius, radiate, right</description>
+         </type>
+         <persname xlink:type="simple"
+                   xlink:role="portrait"
+                   xlink:href="http://nomisma.org/id/antoninus_pius">Antoninus Pius</persname>
+      </obverse>
+      <reverse>
+         <legend scriptCode="Latn">CONCORDIA EXERCITVVM S C</legend>
+         <type>
+            <description xml:lang="en">Concordia, standing left, holding Victory and aquila</description>
+         </type>
+         <persname xlink:role="deity"
+                   xlink:type="simple"
+                   xlink:href="http://collection.britishmuseum.org/id/person-institution/57638">Concordia</persname>
+         <persname xlink:role="deity"
+                   xlink:type="simple"
+                   xlink:href="http://collection.britishmuseum.org/id/person-institution/60915">Victory</persname>
+      </reverse>
+   </typeDesc>
+   <adminDesc>
+      <identifier>1989.19.11</identifier>
+      <provenance>
+         <chronList>
+            <chronItem>
+               <acquisition>
+                  <acquiredFrom>Acquired from the Worldwide Treasure Bureau, September, 1989.</acquiredFrom>
+               </acquisition>
+            </chronItem>
+            <chronItem>
+               <previousColl>From a London auction of 1952.</previousColl>
+            </chronItem>
+         </chronList>
+      </provenance>
+      <department>Roman</department>
+      <collection xlink:type="simple" xlink:href="http://nomisma.org/id/uva">The Fralin Museum of Art</collection>
+   </adminDesc>
+   <refDesc>
+      <reference xlink:arcrole="nmo:hasTypeSeriesItem"
+                 xlink:type="simple"
+                 xlink:href="http://numismatics.org/ocre/id/ric.3.ant.657">RIC III Antoninus Pius 657</reference>
+   </refDesc>
+   <digRep>
+      <mets:fileSec>
+         <mets:fileGrp USE="obverse">
+            <mets:file USE="reference" MIMETYPE="image/jpeg">
+               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/screen/n1989_19_11_obv.jpg"/>
+            </mets:file>
+            <mets:file USE="thumbnail" MIMETYPE="image/jpeg">
+               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/thumb/n1989_19_11_obv.jpg"/>
+            </mets:file>
+            <mets:file USE="master" MIMETYPE="image/jpeg">
+               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/master/n1989_19_11_obv.jpg"/>
+            </mets:file>
+         </mets:fileGrp>
+         <mets:fileGrp USE="reverse">
+            <mets:file USE="reference" MIMETYPE="image/jpeg">
+               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/screen/n1989_19_11_rev.jpg"/>
+            </mets:file>
+            <mets:file USE="thumbnail" MIMETYPE="image/jpeg">
+               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/thumb/n1989_19_11_rev.jpg"/>
+            </mets:file>
+            <mets:file USE="master" MIMETYPE="image/jpeg">
+               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/master/n1989_19_11_rev.jpg"/>
+            </mets:file>
+         </mets:fileGrp>
+      </mets:fileSec>
+   </digRep>
+</nuds>
