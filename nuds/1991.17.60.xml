@@ -10,6 +10,7 @@
    <control>
       <recordId>1991.17.60</recordId>
       <otherRecordId semantic="dcterms:replaces">http://coins.lib.virginia.edu/display-uva?id=n1991_17_60</otherRecordId>
+      <otherRecordId semantic="rdfs:seeAlso">http://search.lib.virginia.edu/catalog/tsb:63465</otherRecordId>
       <publicationStatus>approved</publicationStatus>
       <maintenanceStatus>revised</maintenanceStatus>
       <maintenanceAgency>
@@ -39,6 +40,13 @@
             <eventDescription>Extracted typological data from coin type URI; moved URI to nuds:reference[@arcrole='nmo:hasTypeSeriesItem']. Restructured to
                     make compatible with current NUDS XSD schema.</eventDescription>
          </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2017-12-22T15:42:02.98-05:00">2017-12-22T15:42:02.98-05:00</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>XSLT</agent>
+            <eventDescription>Extracting material from coin type description; replaced METS file metadata with IIIF services; inserting Virgo link</eventDescription>
+         </maintenanceEvent>
       </maintenanceHistory>
       <rightsStmt>
          <license xlink:type="simple"
@@ -53,6 +61,10 @@
       <semanticDeclaration>
          <prefix>nmo</prefix>
          <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>rdfs</prefix>
+         <namespace>http://www.w3.org/2000/01/rdf-schema#</namespace>
       </semanticDeclaration>
    </control>
    <descMeta>
@@ -127,25 +139,31 @@
    <digRep>
       <mets:fileSec>
          <mets:fileGrp USE="obverse">
+            <mets:file USE="iiif">
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699645"/>
+            </mets:file>
             <mets:file USE="reference" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/screen/n1991_17_60_obv.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699645/full/!400,400/0/default.jpg"/>
             </mets:file>
             <mets:file USE="thumbnail" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/thumb/n1991_17_60_obv.jpg"/>
-            </mets:file>
-            <mets:file USE="master" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/master/n1991_17_60_obv.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699645/full/,120/0/default.jpg"/>
             </mets:file>
          </mets:fileGrp>
          <mets:fileGrp USE="reverse">
+            <mets:file USE="iiif">
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699646"/>
+            </mets:file>
             <mets:file USE="reference" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/screen/n1991_17_60_rev.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699646/full/!400,400/0/default.jpg"/>
             </mets:file>
             <mets:file USE="thumbnail" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/thumb/n1991_17_60_rev.jpg"/>
-            </mets:file>
-            <mets:file USE="master" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/master/n1991_17_60_rev.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699646/full/,120/0/default.jpg"/>
             </mets:file>
          </mets:fileGrp>
       </mets:fileSec>

@@ -10,6 +10,7 @@
    <control>
       <recordId>2012.94</recordId>
       <otherRecordId semantic="dcterms:replaces">http://coins.lib.virginia.edu/display-uva?id=n14_1989_11</otherRecordId>
+      <otherRecordId semantic="rdfs:seeAlso">http://search.lib.virginia.edu/catalog/tsb:63574</otherRecordId>
       <publicationStatus>approved</publicationStatus>
       <maintenanceStatus>revised</maintenanceStatus>
       <maintenanceAgency>
@@ -39,6 +40,13 @@
             <eventDescription>Extracted typological data from coin type URI; moved URI to nuds:reference[@arcrole='nmo:hasTypeSeriesItem']. Restructured to
                     make compatible with current NUDS XSD schema.</eventDescription>
          </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2017-12-22T15:42:01.529-05:00">2017-12-22T15:42:01.529-05:00</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>XSLT</agent>
+            <eventDescription>Extracting material from coin type description; replaced METS file metadata with IIIF services; inserting Virgo link</eventDescription>
+         </maintenanceEvent>
       </maintenanceHistory>
       <rightsStmt>
          <license xlink:type="simple"
@@ -54,6 +62,10 @@
          <prefix>nmo</prefix>
          <namespace>http://nomisma.org/ontology#</namespace>
       </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>rdfs</prefix>
+         <namespace>http://www.w3.org/2000/01/rdf-schema#</namespace>
+      </semanticDeclaration>
    </control>
    <descMeta>
       <title xml:lang="en">Denarius of M. Herennius, Rome, 108-107 B.C. 2012.94.</title>
@@ -65,6 +77,7 @@
          </dateRange>
          <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
          <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
             <persname xlink:type="simple"
                       xlink:role="issuer"
@@ -134,25 +147,31 @@
    <digRep>
       <mets:fileSec>
          <mets:fileGrp USE="obverse">
+            <mets:file USE="iiif">
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699863"/>
+            </mets:file>
             <mets:file USE="reference" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/screen/n14_1989_11_obv.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699863/full/!400,400/0/default.jpg"/>
             </mets:file>
             <mets:file USE="thumbnail" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/thumb/n14_1989_11_obv.jpg"/>
-            </mets:file>
-            <mets:file USE="master" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/master/n14_1989_11_obv.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699863/full/,120/0/default.jpg"/>
             </mets:file>
          </mets:fileGrp>
          <mets:fileGrp USE="reverse">
+            <mets:file USE="iiif">
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699864"/>
+            </mets:file>
             <mets:file USE="reference" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/screen/n14_1989_11_rev.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699864/full/!400,400/0/default.jpg"/>
             </mets:file>
             <mets:file USE="thumbnail" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/thumb/n14_1989_11_rev.jpg"/>
-            </mets:file>
-            <mets:file USE="master" MIMETYPE="image/jpeg">
-               <mets:FLocat LOCTYPE="URL" xlink:href="images/coins/master/n14_1989_11_rev.jpg"/>
+               <mets:FLocat LOCYPE="URL"
+                            xlink:href="https://iiif.lib.virginia.edu/iiif/tsm:1699864/full/,120/0/default.jpg"/>
             </mets:file>
          </mets:fileGrp>
       </mets:fileSec>
