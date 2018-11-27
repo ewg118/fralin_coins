@@ -76,9 +76,8 @@
          <material xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
             <persname xlink:type="simple" xlink:role="authority"
-                      xlink:href="http://nomisma.org/id/demetrius_i">Demetrius I Poliorcetes</persname>
-            <famname xlink:type="simple" xlink:role="dynasty">Antigonid</famname>
-            <corpname xlink:type="simple" xlink:role="state">Macedonian Kingdom</corpname>
+                      xlink:href="http://nomisma.org/id/demetrius_i">Demetrius I Poliorcetes</persname>           
+            
          </authority>
          <geographic>
             <geogname xlink:type="simple" xlink:role="mint"

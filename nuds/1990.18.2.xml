@@ -77,8 +77,7 @@
          <authority>
             <persname xlink:type="simple" xlink:role="authority"
                       xlink:href="http://nomisma.org/id/philip_ii">Philip II</persname>
-            <famname xlink:type="simple" xlink:role="dynasty">Argead</famname>
-            <corpname xlink:type="simple" xlink:role="state">Macedonian Kingdom</corpname>
+            <famname xlink:type="simple" xlink:role="dynasty">Argead</famname>            
          </authority>
          <geographic>
             <geogname xlink:type="simple" xlink:role="mint"
