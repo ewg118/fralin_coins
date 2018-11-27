@@ -76,8 +76,6 @@
          <authority>
             <persname xlink:type="simple" xlink:role="authority"
                       xlink:href="http://nomisma.org/id/ptolemy_iv">Ptolemy IV Philopator</persname>
-            <famname xlink:type="simple" xlink:role="dynasty">Ptolemaic</famname>
-            <corpname xlink:type="simple" xlink:role="state">Ptolemaic Kingdom</corpname>
          </authority>
          <geographic>
             <geogname xlink:type="simple" xlink:role="mint"
