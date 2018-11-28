@@ -73,7 +73,7 @@
             <toDate standardDate="0273">273</toDate>
          </dateRange>
          <denomination xlink:href="http://nomisma.org/id/antoninianus">Antoninianus</denomination>
-         <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
             <persname xlink:type="simple" xlink:role="authority"
                       xlink:href="http://nomisma.org/id/tetricus_i">Tetricus I</persname>
