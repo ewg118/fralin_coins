@@ -72,9 +72,9 @@
             <fromDate standardDate="0260">AD 260</fromDate>
             <toDate standardDate="0268">AD 268</toDate>
          </dateRange>
-         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/aureus">Aureus</denomination>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/antoninianus">Antoninianus</denomination>
          <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
-         <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
             <persname xlink:type="simple" xlink:role="authority"
                       xlink:href="http://nomisma.org/id/gallienus">Gallienus</persname>
@@ -107,12 +107,12 @@
          </measurementsSet>
       </physDesc>
       <findspotDesc xlink:type="simple" xlink:href="http://nomisma.org/id/olivers_orchard_hoards"/>
-      <refDesc>
+      <!--<refDesc>
          <reference xlink:arcrole="nmo:hasTypeSeriesItem" xlink:type="simple"
                     xlink:href="http://numismatics.org/ocre/id/ric.5.gall(2).26">
             <tei:title>RIC V Gallienus 26</tei:title>
          </reference>
-      </refDesc>
+      </refDesc>-->
       <adminDesc>
          <identifier>1991.17.82</identifier>
          <provenance>
