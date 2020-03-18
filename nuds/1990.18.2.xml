@@ -65,41 +65,45 @@
       </semanticDeclaration>
    </control>
    <descMeta>
-      <title xml:lang="en">Tetradrachm of Philip II, Amphipolis, 359 B.C.-336 B.C. 1990.18.2.</title>
+      <title xml:lang="en">Tetradrachm of Philip II, Amphipolis, 347 B.C.-328 B.C. 1990.18.2.</title>
       <typeDesc>
-         <objectType xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
          <dateRange>
-            <fromDate standardDate="-0359">359 B.C.</fromDate>
-            <toDate standardDate="-0336">336 B.C.</toDate>
+            <fromDate standardDate="-0347">347 BCE</fromDate>
+            <toDate standardDate="-0328">328 BCE</toDate>
          </dateRange>
-         <denomination xlink:href="http://nomisma.org/id/tetradrachm">Tetradrachm</denomination>
-         <material xlink:href="http://nomisma.org/id/ar">Silver</material>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/tetradrachm">Tetradrachm</denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
-            <persname xlink:type="simple" xlink:role="authority"
-                      xlink:href="http://nomisma.org/id/philip_ii">Philip II</persname>
-            <famname xlink:type="simple" xlink:role="dynasty">Argead</famname>            
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/alexander_iii">Alexander III of Macedon</persname>
+            <persname xlink:type="simple" xlink:role="statedAuthority" xlink:href="http://nomisma.org/id/philip_ii">Philip II</persname>
          </authority>
          <geographic>
-            <geogname xlink:type="simple" xlink:role="mint"
-                      xlink:href="http://nomisma.org/id/amphipolis">Amphipolis</geogname>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/amphipolis">Amphipolis</geogname>
          </geographic>
          <obverse>
             <type>
-               <description xml:lang="en">Laureate head of Zeus, right.</description>
+               <description xml:lang="en">Laureate head of Zeus to right</description>
             </type>
-            <persname xlink:type="simple" xlink:role="deity">Zeus</persname>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/zeus">Zeus</persname>
          </obverse>
          <reverse>
-            <legend>PHILIPPOU</legend>
+            <legend>ΦΙΛΙΠΠΟΥ</legend>
+            
             <type>
-               <description xml:lang="en">Horse trotting right, jockey holding palm, wreath below.</description>
+               <description xml:lang="en">Nude youth riding horse to right, reins in left hand, victory palm in right hand</description>
             </type>
+            <symbol>amphora</symbol>
          </reverse>
       </typeDesc>
       <refDesc>
+         <reference xlink:arcrole="nmo:hasTypeSeriesItem" xlink:type="simple"
+            xlink:href="http://numismatics.org/pella/id/pella_philip_ii.125">
+            <tei:title>PELLA Philip II 125</tei:title>
+         </reference>
          <reference>
-            <tei:title>LeRider</tei:title> 
-            <tei:idno>2v</tei:idno>
+            <tei:title key="http://nomisma.org/id/lerider_philip_ii">Le Rider Philip II</tei:title>
+            <tei:idno>2.230-2.245</tei:idno>
          </reference>
       </refDesc>
       <adminDesc>
