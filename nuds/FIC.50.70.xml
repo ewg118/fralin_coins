@@ -75,8 +75,7 @@
          <material xlink:href="http://nomisma.org/id/ae">Bronze</material>
          <authority>
             <persname xlink:type="simple" xlink:role="authority"
-                      xlink:href="http://nomisma.org/id/herod">Herod the Great</persname>
-            <famname xlink:type="simple" xlink:role="dynasty">Herodian</famname>
+                      xlink:href="http://nomisma.org/id/herod">Herod the Great</persname>            
          </authority>
          <geographic>
             <geogname xlink:type="simple" xlink:role="region"
