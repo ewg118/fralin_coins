@@ -80,19 +80,46 @@
          </geographic>
          <obverse>
             <type>
-               <description xml:lang="en">Horned head of the deified Alexander right, wearing elephant headdress, withra, and scaly aegis, sometimes with tiny Δ on aegis, dotted border</description>
+               <description xml:lang="en">Horned Head of the deified Alexander right, wearing elephant Headdress, mitra, and scaly aegis, sometimes with tiny Δ on aegis, dotted border</description>
             </type>
             <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/ptolemy_i">Ptolemy I Soter</persname>
-            <symbol>Coundermark Mertens on Alexander's cheek</symbol>
          </obverse>
          <reverse>
             <legend>AΛΕΞΑΝΔΡΟY l.</legend>
             <type>
                <description xml:lang="en">Athena Promachos advancing right, brandishing spear and shield, dotted border</description>
             </type>
-            <symbol position="leftField">mertens297</symbol>
-            <symbol position="rightField">Mertens45 above mertens83 above eagle on thunderbolt</symbol>
-            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57060">Athena</persname>
+            <symbol position="leftField">
+               <tei:div type="edition">
+                  <tei:ab>
+                     <tei:am>
+                        <tei:g type="nmo:Monogram" ref="http://numismatics.org/pco/symbol/monogram.lorber.20">Lorber Monogram 20</tei:g>
+                     </tei:am>
+                  </tei:ab>
+               </tei:div>
+            </symbol>
+            <symbol position="rightField">
+               <tei:div type="edition">
+                  <tei:ab rend="above">
+                     <tei:ab>
+                        <tei:am>
+                           <tei:g type="nmo:Monogram" ref="http://numismatics.org/pco/symbol/monogram.lorber.35">Lorber Monogram 35</tei:g>
+                        </tei:am>
+                     </tei:ab>
+                  </tei:ab>
+                  <tei:ab rend="below">
+                     <tei:ab>
+                        <tei:am>
+                           <tei:g type="nmo:Monogram" ref="http://numismatics.org/pco/symbol/monogram.lorber.58">Lorber Monogram 58</tei:g>
+                        </tei:am>
+                     </tei:ab>
+                  </tei:ab>
+                  <tei:ab rend="below">
+                     <tei:ab>eagle on thunderbolt</tei:ab>
+                  </tei:ab>
+               </tei:div>
+            </symbol>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/athena">Athena</persname>
          </reverse>
          <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/coins_ptolemaic_empire">Coins of the Ptolemaic Empire</typeSeries>
       </typeDesc>

@@ -69,17 +69,14 @@
       <typeDesc>
          <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
          <dateRange>
-            <fromDate standardDate="-0324">323 B.C.</fromDate>
-            <toDate standardDate="-0318">317 B.C.</toDate>
+            <fromDate standardDate="-0323">323 BCE</fromDate>
+            <toDate standardDate="-0317">317 BCE</toDate>
          </dateRange>
          <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/drachma">Drachma</denomination>
-         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
          <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
-            <persname xlink:type="simple" xlink:role="authority"
-                      xlink:href="http://nomisma.org/id/philip_iii_arrhidaeus">Philip III Arrhidaeus</persname>
-            <persname xlink:type="simple" xlink:role="statedAuthority"
-                      xlink:href="http://nomisma.org/id/philip_iii_arrhidaeus">Philip III Arrhidaeus</persname>
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/philip_iii_arrhidaeus">Philip III Arrhidaeus</persname>
+            <persname xlink:type="simple" xlink:role="statedAuthority" xlink:href="http://nomisma.org/id/philip_iii_arrhidaeus">Philip III Arrhidaeus</persname>
          </authority>
          <geographic>
             <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/side">Side</geogname>
@@ -87,22 +84,23 @@
          <obverse>
             <type>
                <description xml:lang="en">Head of beardless Heracles right wearing lion skin headdress</description>
-               <description xml:lang="de">Kopf des jugendlichen Herakles nach r. mit Löwenfell</description>
+               <description xml:lang="de">Kopf des jugendlichen Herakles nach r. mit Löwenfellexuvie</description>
                <description xml:lang="fr">Tête d'Héraclès imberbe à dr. coiffé d'une dépouille de lion</description>
             </type>
-            <persname xlink:type="simple" xlink:role="deity"
-                      xlink:href="http://collection.britishmuseum.org/id/person-institution/58628">Heracles</persname>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/heracles">Heracles</persname>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/zeus">Zeus</persname>
          </obverse>
          <reverse>
-            <legend scriptCode="Grek">ΦΙΛΙΠΠΟΥ</legend>
+            <legend>ΦΙΛΙΠΠΟΥ</legend>            
             <type>
                <description xml:lang="en">Zeus seated on stool-throne left, eagle on outstretched right hand, sceptre in left hand</description>
                <description xml:lang="de">Zeus nach l. thronend, in der ausgestreckten R. Adler und in der L. Zepter haltend</description>
                <description xml:lang="fr">Zeus assis à g. sur un trône, un aigle dans la main dr. tendue et un sceptre dans la main g.</description>
             </type>
-            <persname xlink:type="simple" xlink:role="deity"
-                      xlink:href="http://collection.britishmuseum.org/id/person-institution/58921">Zeus</persname>
+            <symbol position="leftField">pomegranate</symbol>
+            <symbol position="beneathThrone">ΠΥ</symbol>
          </reverse>
+         <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/price1991">Price (1991)</typeSeries>
       </typeDesc>
       <refDesc>
          <reference xlink:arcrole="nmo:hasTypeSeriesItem" xlink:type="simple"

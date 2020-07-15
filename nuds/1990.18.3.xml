@@ -65,50 +65,43 @@
       </semanticDeclaration>
    </control>
    <descMeta>
-      <title xml:lang="en">Tetradrachm of Alexander the Great, Amphipolis, 336 B.C.-323 B.C. 1990.18.3.</title>
+      <title xml:lang="en">Tetradrachm of Alexander the Great, Amphipolis, 320 B.C.-317 B.C. 1990.18.3.</title>
       <typeDesc>
-         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>                           
          <dateRange>
-            <fromDate standardDate="-0321">320 B.C.</fromDate>
-            <toDate standardDate="-0318">317 B.C.</toDate>
+            <fromDate standardDate="-0320">320 BCE</fromDate>
+            <toDate standardDate="-0317">317 BCE</toDate>
          </dateRange>
          <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/tetradrachm">Tetradrachm</denomination>
-         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
          <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
-            <persname xlink:type="simple" xlink:role="statedAuthority"
-                      xlink:href="http://nomisma.org/id/alexander_iii">Alexander III of Macedon</persname>
+            <persname xlink:type="simple" xlink:role="statedAuthority" xlink:href="http://nomisma.org/id/alexander_iii">Alexander III of Macedon</persname>
          </authority>
          <geographic>
-            <geogname xlink:type="simple" xlink:role="mint"
-                      xlink:href="http://nomisma.org/id/amphipolis"
-                      certainty="uncertain">Amphipolis</geogname>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/amphipolis" certainty="http://nomisma.org/id/uncertain_value">Amphipolis</geogname>
          </geographic>
          <obverse>
             <type>
                <description xml:lang="en">Head of beardless Heracles right wearing lion skin headdress</description>
-               <description xml:lang="de">Kopf des jugendlichen Herakles nach r. mit Löwenfell</description>
+               <description xml:lang="de">Kopf des jugendlichen Herakles nach r. mit Löwenfellexuvie</description>
                <description xml:lang="fr">Tête d'Héraclès imberbe à dr. coiffé d'une dépouille de lion</description>
             </type>
-            <persname xlink:type="simple" xlink:role="deity"
-                      xlink:href="http://collection.britishmuseum.org/id/person-institution/58628">Heracles</persname>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/heracles">Heracles</persname>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/zeus">Zeus</persname>
          </obverse>
          <reverse>
-            <legend scriptCode="Grek">ΑΛΕΞΑΝΔΡΟΥ</legend>
+            <legend>ΑΛΕΞΑΝΔΡΟΥ</legend>
             <type>
                <description xml:lang="en">Zeus seated on stool-throne left, eagle on outstretched right hand, sceptre in left hand</description>
                <description xml:lang="de">Zeus nach l. thronend, in der ausgestreckten R. Adler und in der L. Zepter haltend</description>
                <description xml:lang="fr">Zeus assis à g. sur un trône, un aigle dans la main dr. tendue et un sceptre dans la main g.</description>
             </type>
-            <persname xlink:type="simple" xlink:role="deity"
-                      xlink:href="http://collection.britishmuseum.org/id/person-institution/58921">Zeus</persname>
+            <symbol position="leftField">corn-ear</symbol>
+            <symbol position="beneathThrone" xlink:href="http://numismatics.org/pella/symbol/monogram.price.1238" xlink:type="simple" xlink:arcrole="nmo:hasControlmark">Price Monogram 1238</symbol>
          </reverse>
+         <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/price1991">Price (1991)</typeSeries>
       </typeDesc>
-      <refDesc>
-         <reference>
-            <tei:title>Price</tei:title> 
-            <tei:idno>130</tei:idno>
-         </reference>
+      <refDesc>         
          <reference xlink:arcrole="nmo:hasTypeSeriesItem" xlink:type="simple"
                     xlink:href="http://numismatics.org/pella/id/price.130">Price 130</reference>
       </refDesc>
