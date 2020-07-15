@@ -76,7 +76,7 @@
          <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
          <authority>
             <persname xlink:type="simple" xlink:role="authority"
-                      xlink:href="http://nomisma.org/id/tectricus_i">Tetricus I</persname>
+                      xlink:href="http://nomisma.org/id/tetricus_i">Tetricus I</persname>
             <corpname xlink:type="simple" xlink:role="state">Gallic Empire</corpname>
          </authority>
          <obverse>
